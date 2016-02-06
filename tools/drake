@@ -1,2 +1,3 @@
 #!/bin/bash
+export DRAKEPATH="/usr/local/bin" #define DRAKEPATH
 drip -cp ${DRAKEPATH}/drake.jar drake.core "$@"
